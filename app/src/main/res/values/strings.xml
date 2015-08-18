@@ -16,5 +16,19 @@
   -->
 
 <resources>
+
+    <!-- Name of the app as shown in the launcher. Changing this value changes the name of the
+    app in the launcher and nothing else within the general UI of the app. -->
     <string name="app_name">Phoonk</string>
+
+    <!-- Navigation drawer items. Changing values here will affect only the item names
+    in the navigation drawer. -->
+    <string name="menu_nav_explore">Explore</string>
+    <string name="menu_nav_favorites">Favorites</string>
+    <string name="menu_nav_events">Events</string>
+
+    <!-- Titles for respective activities. Changing values here will affect only the title
+    of the toolbar of the respective activities. -->
+    <string name="title_explore">Explore</string>
+
 </resources>
