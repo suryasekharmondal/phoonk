@@ -87,6 +87,13 @@ public class BaseNavDrawerActivity extends BaseActivity {
                         Intent intent = null;
                         switch (menuItem.getItemId()) {
 
+                            case R.id.menuNavExplore :
+                                if (BaseNavDrawerActivity.this instanceof ExploreActivity) {
+                                    break;
+                                }
+                                intent = new Intent(BaseNavDrawerActivity.this, ExploreActivity.class);
+                                break;
+
                         }
                         goToNavDrawerItem(intent);
                         closeNavDrawer();

@@ -45,6 +45,11 @@
         <!-- Customizations related to how text appears. -->
         <item name="android:textAppearance">@style/TextAppearance</item>
 
+        <!-- Drawable attribute definitions. -->
+        <item name="drawableExplore">@drawable/ic_action_explore</item>
+        <item name="drawableFavorites">@drawable/ic_action_favorites</item>
+        <item name="drawableEvents">@drawable/ic_action_events</item>
+
     </style>
 
     <style name="ImmersiveTheme" parent="Theme.Phoonk" />
